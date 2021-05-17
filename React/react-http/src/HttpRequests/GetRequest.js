@@ -24,14 +24,17 @@ class GetRequest extends Component {
     render() {
         const {posts}=this.state
         return (
+            <>
             <div>
              List of posts  
              {
-             posts.gglength ?
+             posts.length ?
              posts.map(post => <div key={post.id}>{post.title}</div>):    
               null 
               }
             </div>
+            <button>getrequest</button>
+            </>
         );
     }
 }
