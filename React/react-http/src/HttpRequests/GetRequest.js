@@ -33,7 +33,7 @@ class GetRequest extends Component {
               null 
               }
             </div>
-            <button>getrequest</button>
+            <button>getrequest.</button>
             </>
         );
     }
